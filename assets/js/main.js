@@ -1,4 +1,4 @@
-const container = document.querySelector('#container')
+const container = document.querySelector('#wrapper')
 
 function getTextColor(r, g, b) {
     var brightness = (r * 299 + g * 587 + b * 114) / 1000
